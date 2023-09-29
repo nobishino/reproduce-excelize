@@ -6,7 +6,7 @@ Please run `go test`.
 
 I attempted to read all cells using the `*excelize.File.GetRows()` method.
 
-I wrote test code to reproduce the issue, which can be found [here](https://github.com/nobishino/reproduce-excelize)
+I wrote test code to reproduce the issue, which can be found [here](https://github.com/nobishino/reproduce-excelize).
 
 ## What Did I Expect to See?
 
@@ -14,11 +14,11 @@ I expected the result slice to contain all numbers.
 
 ## What Did I See Instead?
 
-Instead, I observed that it returned an empty string `""` for cells with the format `#,#####.`
+Instead, I observed that it returned an empty string `""` for cells with the format `#,#####`.
 
 ## my environment
 
-### ` go version`
+### `go version`
 
 <pre>
 go version
